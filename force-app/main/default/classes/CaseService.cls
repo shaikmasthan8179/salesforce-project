@@ -8,6 +8,10 @@ public with sharing class CaseService {
 
                 cs.Priority = 'High';
 
+            } else if(cs.Origin == 'Email') {
+
+                cs.Priority = 'Low';
+
             } else {
 
                 cs.Priority = 'Medium';
