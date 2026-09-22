@@ -11,7 +11,7 @@ public with sharing class CaseService {
             } else if(cs.Origin == 'Email') {
 
                 cs.Priority = 'Low';
-
+// addded comment to check git fetch and pull ??
             } else {
 
                 cs.Priority = 'Medium';
