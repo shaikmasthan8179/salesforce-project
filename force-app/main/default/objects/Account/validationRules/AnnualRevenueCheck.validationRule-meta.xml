@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AnnualRevenueCheck</fullName>
+    <active>true</active>
+    <description>Annual Revenue cannot exceed 100 Million</description>
+    <errorConditionFormula>
+        AnnualRevenue > 100000000
+    </errorConditionFormula>
+    <errorMessage>
+        Annual Revenue cannot exceed 100 Million.
+    </errorMessage>
+</ValidationRule>
