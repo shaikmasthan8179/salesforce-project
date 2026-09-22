@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomerRatingValidation</fullName>
+    <active>true</active>
+    <description>Rating should not exceed 10</description>
+    <errorConditionFormula>
+        Customer_Rating__c > 10
+    </errorConditionFormula>
+    <errorMessage>
+        Customer Rating cannot be greater than 10.
+    </errorMessage>
+</ValidationRule>
