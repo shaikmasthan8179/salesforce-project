@@ -5,7 +5,7 @@ public with sharing class AccountService {
         for(Account acc : accounts){
 
             if(acc.AnnualRevenue != null &&
-               acc.AnnualRevenue > 10000000){
+               acc.AnnualRevenue > 50000000){
 
                 acc.Active_Customer__c = true;
 
