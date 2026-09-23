@@ -10,6 +10,7 @@ public with sharing class AccountService {
                 acc.Active_Customer__c = true;
             } else {
 // added comment from github to check fetch & git pull//
+//added to test automated deployment//
                 acc.Active_Customer__c = false;
             }
         }
